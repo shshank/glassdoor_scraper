@@ -11,7 +11,7 @@ PASSWORD = ''
 
 class Glassdoor(object):
     def __init__(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.PhantomJS()
         self.page_source = ''
         self.login()
 
